@@ -53,7 +53,6 @@ export class App extends Component {
     return (
       <>
         <h1>The Dog Website</h1>
-        <h2>Hi Mando</h2>
         <p>Moose made this... tell him a breed and he will add (if he can)</p>
         <select value={this.state.breed} onChange={this.handleChange}>
           <option value="husky">Husky</option>
