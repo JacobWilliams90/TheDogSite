@@ -62,6 +62,7 @@ export class App extends Component {
           <option value='dane/great'>Great Dane</option>
           <option value='bulldog/english'>British Bulldog (Apollo add)</option>
           <option value='bulldog/french'>French Bulldog (Mando Add)</option>
+          <option value='collie/border'>Border Collie (Yoki Add)</option>
         </select>
         <div>
           {this.state.images.map((image, index) => (
