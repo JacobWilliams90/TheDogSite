@@ -52,7 +52,7 @@ export class App extends Component {
   render() {
     return (
       <>
-        <h1>The Dog Website</h1>
+        <h1>The Dog Website (HI APOLLO)</h1>
         <select value={this.state.breed} onChange={this.handleChange}>
           <option value="husky">Husky</option>
           <option value="beagle">Beagle</option>
