@@ -70,6 +70,7 @@ export class App extends Component {
           <option value='shiba'>Shiba</option>
           <option value='labrador'>Labrador (Raksha)</option>
           <option value='eskimo'>Eskimo (Princess)</option>
+          <option value='terrier/yorkshire'>Yorki (Justarius)</option>
         </select>
         <div>
           {this.state.images.map((image, index) => (
